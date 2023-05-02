@@ -1,7 +1,7 @@
 nav {
   background-color: #1a120b;
   color: #e5e5cb;
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: center;
 }
@@ -13,10 +13,10 @@ nav {
   width: 80%;
 }
 
-.logo a {
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
+.logo img {
+  width: 70px;
+  height: auto;
+  padding-top: 5px;
 }
 
 .navbar-menu ul {
