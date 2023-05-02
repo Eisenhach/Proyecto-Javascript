@@ -52,14 +52,14 @@ const libro7 = {
   precio: "USD " + 12,
   paginas: 560,
   genero: "Misterio",
-  };
-  
+};
 
 const libro8 = {
-  titulo: "Orgullo y prejuicio",
-  autor: "Jane Austen",
-  precio: 10.99,
-  paginas: 416,
+  titulo: "Confess",
+  autor: "Colleen Hoover",
+  precio: "USD " + 20,
+  paginas: 320,
+  genero: "Romance",
 };
 
 const libros = [libro1, libro2, libro3, libro4, libro5, libro6, libro7, libro8];

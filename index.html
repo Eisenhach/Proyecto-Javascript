@@ -29,6 +29,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
@@ -64,7 +70,9 @@
     </nav>
 
     <h1>Bienvenidos a nuesta libreria virtual</h1>
-    <div class="busqueda-resultados"></div>
+    <div
+      class="busqueda-resultados animate__animated animate__fadeInRight"
+    ></div>
     <div id="contenedor-libros">
       <!------ Primer libro  -------->
       <div class="libro-card">
@@ -319,30 +327,33 @@
       <!----- Octavo libro ------>
       <div class="libro-card">
         <div class="libro-titulo">
-          <h2>Caraval</h2>
+          <h2>Confess</h2>
           <button id="icono8" onclick="cambiarIcono('icono8')">
             <i class="fa-regular fa-bookmark"></i>
           </button>
         </div>
         <img
           class="libro-img"
-          src="assets/caraval.png"
-          alt="portada del libro caraval"
+          src="assets/confess.jpg"
+          alt="portada del libro confess"
         />
         <p class="descripcion">
-          Recuerda, sólo es un juego... La historia sigue a Scarlett Dragna,
-          quien nunca ha dejado su isla y sueña con asistir a los juegos anuales
-          de Caraval, una celebración llena de magia y aventura en la que la
-          audiencia participa para ganar un gran premio. Justo antes de su boda,
-          Scarlett recibe invitaciones para asistir a Caraval, pero su hermana
-          Tella es secuestrada por Legend,
+          Auburn Reed tiene toda su vida planeada. Sus metas están fijas y no
+          hay espacio para errores. Pero cuando entra a un estudio de arte en
+          Dallas en busca de un empleo, no espera encontrar una profunda
+          atracción hacia el enigmático artista que trabaja allí, Owen Gentry.
+          Por primera vez, Auburn toma un riesgo y le da el control a su
+          corazón,
           <span class="oculto-8"
-            >el Maestro del juego. Scarlett se ve obligada a entrar en el
-            peligroso juego de Caraval para salvar a su hermana, y debe
-            descifrar pistas en solo cinco noches para encontrarla antes de que
-            desaparezca para siempre. En el camino, Scarlett debe lidiar con el
-            amor, las medias verdades y la magia en un mundo en el que nada es
-            lo que parece.</span
+            >sólo para descubrir que Owen tiene enormes secretos por revelar. La
+            magnitud de su pasado amenaza con destruir todo lo que es importante
+            para Auburn, y la única manera de volver a poner su vida en orden es
+            apartando a Owen de ella. Lo último que quiere Owen es perder a
+            Auburn, pero no parece poder convencerla de que, a veces, las
+            verdades son tan subjetivas como el arte. Todo lo que tendría que
+            hacer para salvar su relación es confesar. Pero este caso, la
+            confesión podría ser mucho más destructiva que el pecado como
+            tal…</span
           >
         </p>
         <button class="ver-mas-8">Ver más</button>
