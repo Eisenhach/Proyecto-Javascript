@@ -1,0 +1,179 @@
+/* Titulos | font-family: 'Poltawski Nowy', serif; */
+/* Todo | font-family: 'Dosis', sans-serif; */
+
+h1 {
+  text-align: center;
+}
+
+#contenedor-libros {
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-gap: 20px;
+}
+
+
+
+.oculto,
+.oculto-2,
+.oculto-3,
+.oculto-4,
+.oculto-5,
+.oculto-6,
+.oculto-7,
+.oculto-8 {
+  display: none;
+}
+
+.ver-menos,
+.ver-menos-2,
+.ver-menos-3,
+.ver-menos-4,
+.ver-menos-5,
+.ver-menos-6,
+.ver-menos-7,
+.ver-menos-8 {
+  display: none;
+}
+
+
+.hacer-pedido,
+.hacer-pedido-2,
+.hacer-pedido-3,
+.hacer-pedido-4,
+.hacer-pedido-5,
+.hacer-pedido-6,
+.hacer-pedido-7,
+.hacer-pedido-8 {
+  border: none;
+  background-color: #3c2a21;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+}
+
+.ver-mas,
+.ver-menos,
+.ver-menos-2,
+.ver-mas-2,
+.ver-mas-3,
+.ver-menos-3,
+.ver-menos-4,
+.ver-mas-4,
+.ver-menos-5,
+.ver-mas-5,
+.ver-mas-6,
+.ver-menos-6,
+.ver-mas-7,
+.ver-menos-7,
+.ver-mas-8,
+.ver-menos-8 {
+  border: none;
+  background-color: #3c2a21;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Dosis', sans-serif;
+}
+
+.ver-mas:hover,
+.ver-menos:hover,
+.ver-menos-2:hover,
+.ver-mas-2:hover,
+.ver-mas-3:hover,
+.ver-menos-3:hover,
+.ver-menos-4:hover,
+.ver-mas-4:hover,
+.hacer-pedido:hover,
+.hacer-pedido-2:hover,
+.hacer-pedido-3:hover,
+.hacer-pedido-4:hover {
+background-color: #87431d;
+}
+
+
+body {
+  background-color: #3c2a21;
+}
+
+h1 {
+  font-family: "Poltawski Nowy", serif;
+  color: #e5e5cb;
+}
+
+.libro-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: #e5e5cb;
+  border-radius: 10px;
+}
+
+.libro-card:hover{
+  transform: translateY(-3px);
+}
+
+.libro-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.libro-titulo h2 {
+  margin: 0;
+  font-family: "Poltawski Nowy", serif;
+}
+
+.tercer-titulo{
+  font-size: 1.4rem;
+}
+
+#icono,
+#icono2,
+#icono3,
+#icono4,
+#icono5,
+#icono6,
+#icono7,
+#icono8 {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #3c2a21;
+  cursor: pointer;
+}
+
+
+.libro-img {
+  width: auto;
+  height: 200px;
+  margin-top: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.descripcion {
+  text-align: justify;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+}
+
+.libro-card h2 {
+  display: flex;
+  align-items: center;
+}
+
+.libro-card h2 .lista-deseos {
+  margin-left: 10px;
+}

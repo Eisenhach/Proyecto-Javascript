@@ -1,0 +1,27 @@
+
+.titulo-pedidos{
+    margin: 3rem;
+}
+
+.h2-contacto {
+  font-size: 30px;
+  font-family: "Poltawski Nowy", serif;
+  margin-top: 1rem;
+}
+
+.h3-contacto{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+
+.contacto {
+  color: #e5e5cb;
+  background-color: #87431d;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}

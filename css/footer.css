@@ -1,0 +1,18 @@
+footer {
+  background-color: #1a120b;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1px;
+  color: #e5e5cb;
+  font-family: "Dosis", sans-serif;
+}
+
+.footer-pedidos {
+    background-color: #1a120b;
+    text-align: center;
+    margin-top: 4.8rem;
+    padding: 1px;
+    color: #e5e5cb;
+    font-family: "Dosis", sans-serif;
+
+  }

@@ -1,0 +1,117 @@
+nav {
+  background-color: #1a120b;
+  color: #e5e5cb;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu ul li {
+  margin-left: 40px;
+}
+
+.navbar-menu ul li a {
+  color: #e5e5cb;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-menu ul li a:hover {
+  color: #87431d;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 20px;
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px 10px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-bar button[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #87431d;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-bar button[type="submit"]:hover {
+  background-color: #e5e5cb;
+  color: #222;
+}
+
+.cart-icon {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.cart-icon a {
+  color: #e5e5cb;
+}
+
+
+.busqueda-resultados {
+  display: none;
+}
+
+.resultado {
+  background-color: #87431d;
+  border: 1px solid #e5e5cb;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  max-width: 200px;
+  
+}
+
+.resultado h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #e5e5cb;
+  font-family: "Poltawski Nowy", serif;
+}
+
+.resultado p {
+  margin: 0;
+  color: #e5e5cb;
+  font-family: "Dosis", sans-serif;
+}

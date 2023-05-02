@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts (Titulos - Poltawski Nowy ) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts (Dosis) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <title>Librería virtual | Books online</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="#">Logo</a>
+        </div>
+        <div class="navbar-menu">
+          <ul>
+            <li>
+              <a href="#"> <i class="fa-solid fa-house"></i> Inicio</a>
+            </li>
+            <li>
+              <a href="Pedidos.html">
+                <i class="fa-solid fa-bag-shopping"></i> Pedidos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons">
+          <form class="search-bar">
+            <input type="text" placeholder="Buscar..." />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <h1>Bienvenidos a nuesta libreria virtual</h1>
+    <div class="busqueda-resultados"></div>
+    <div id="contenedor-libros">
+      <!------ Primer libro  -------->
+      <div class="libro-card">
+        <div class="libro-titulo">
+          <h2>Caraval</h2>
+          <button id="icono" onclick="cambiarIcono('icono')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/caraval.png"
+          alt="portada del libro caraval"
+        />
+        <p class="descripcion">
+          Recuerda, sólo es un juego... La historia sigue a Scarlett Dragna,
+          quien nunca ha dejado su isla y sueña con asistir a los juegos anuales
+          de Caraval, una celebración llena de magia y aventura en la que la
+          audiencia participa para ganar un gran premio. Justo antes de su boda,
+          Scarlett recibe invitaciones para asistir a Caraval, pero su hermana
+          Tella es secuestrada por Legend,
+          <span class="oculto"
+            >el Maestro del juego. Scarlett se ve obligada a entrar en el
+            peligroso juego de Caraval para salvar a su hermana, y debe
+            descifrar pistas en solo cinco noches para encontrarla antes de que
+            desaparezca para siempre. En el camino, Scarlett debe lidiar con el
+            amor, las medias verdades y la magia en un mundo en el que nada es
+            lo que parece.</span
+          >
+        </p>
+        <button class="ver-mas">Ver más</button>
+        <button class="ver-menos">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+      <!-------------   Segundo libro  --------------->
+
+      <div class="libro-card">
+        <div class="libro-titulo">
+          <h2>Asylum</h2>
+          <button id="icono2" onclick="cambiarIcono('icono2')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/asylum.png"
+          alt="portada del libro asylum"
+        />
+        <p class="descripcion">
+          Dan Crawford asiste a un programa de verano en el Colegio Preparatorio
+          New Hampshire. Al llegar al lugar, se encuentra con que la residencia
+          a la que debía ir ha sido cerrada, por lo cual todos los estudiantes
+          se ven forzados a quedarse en Brookline, un antiguo hospital
+          psiquiátrico. Al explorar el lugar con sus nuevos amigos
+          <span class="oculto-2"
+            >Abby y Jordan, descubren secretos escalofriantes sobre lo que
+            realmente ocurría en el instituto. incluyendo prácticas aberrantes y
+            sujetos peligrosos que habitaban allí. A través de fotografías de
+            hospicios reales, "Asylum" lleva al lector a un mundo donde nada es
+            lo que parece y donde las mentes pueden jugar malas pasadas. Es una
+            advertencia sobre las consecuencias de experimentar con la mente en
+            un submundo donde la obsesión y la locura pueden tener graves
+            consecuencias.</span
+          >
+        </p>
+        <button class="ver-mas-2">Ver más</button>
+        <button class="ver-menos-2">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-2">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+
+      <!----------- Tercer libro ---------->
+      <div class="libro-card" id="libro-ancho">
+        <div class="libro-titulo">
+          <h2 class="tercer-titulo">Anna & The French Kiss</h2>
+          <button id="icono3" onclick="cambiarIcono('icono3')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/anna-and-the-french-kiss.png"
+          alt="portada del libro anna and the french kiss"
+        />
+        <p class="descripcion">
+          En Atlanta Anna lo tiene todo: la familia, una mejor amiga y a un
+          proyecto de novio llamado Thop. Sin embargo, su mundo se desmorona
+          cuando su padre (un famoso escritor de novelas con finales dramáticos)
+          decide que Anna cursará su último año en una escuela de alumnos
+          americanos en París, Francia… ¡FRANCIA!
+          <span class="oculto-3"
+            >Anna solo sabe decir Oui y se siente tremendamente sola en su nueva
+            residencia hasta que conoce a Étienne St. Clair y a sus amigos
+            (Meredith, Josh, Rashmi…)Poco a poco, Anna descubrirá la magia de
+            París junto a St. Clair y comenzará a sentirse atraída por él, a
+            pesar de que existe un pequeño problema que se interpone entre
+            ellos: Étienne St. Clair tiene novia.
+          </span>
+        </p>
+        <button class="ver-mas-3">Ver más</button>
+        <button class="ver-menos-3">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-3">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+
+      <!-------- Cuarto libro ------->
+      <div class="libro-card" id="libro-ancho">
+        <div class="libro-titulo">
+          <h2>The Paris Apartment</h2>
+          <button id="icono4" onclick="cambiarIcono('icono4')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/the-paris-apartment.jpg"
+          alt="portada del libro the paris apartment"
+        />
+        <p class="descripcion">
+          Es una novela que nos conduce por un misterio que empieza como una
+          clásica trama de habitación cerrada. El hermano de la protagonista ha
+          desparecido en un apartamento de un edificio de pisos de lujo de
+          París, pero sus cosas siguen en la vivienda y los vecinos, es decir,
+          los sospechosos, no parecen muy alarmados, aunque tampoco muy
+          colaborativos.
+          <span class="oculto-4"
+            >¿Qué esconden? ¿Y dónde está el desaparecido? ¿Y quién es quién en
+            esta historia? Esto último, ojo, sin haceros ningún tipo de
+            destripe, es muy importante. Es una trama con muchos giros, algunos
+            inesperados y otros más predecibles, y con personajes que se vuelven
+            más oscuros a medida que se acerca el desenlace que no es
+            precipitado.</span
+          >
+        </p>
+        <button class="ver-mas-4">Ver más</button>
+        <button class="ver-menos-4">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-4">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+
+      <!----- Quinto libro ------>
+      <div class="libro-card">
+        <div class="libro-titulo">
+          <h2>Renegados</h2>
+          <button id="icono5" onclick="cambiarIcono('icono5')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/renegados.jpg"
+          alt="portada del libro renegados"
+        />
+        <p class="descripcion">
+          Anarquistas y Renegados luchan por el poder. En medio de la batalla
+          surgen los protagonistas que pertenecen a filas opuestas. Por un lado,
+          la anarquista Nova, sobrina del líder Ace, que busca vengar la muerte
+          de su familia y lucha, también, por que los seres humanos logren su
+          autonomía sin depender de los prodigios.
+          <span class="oculto-5"
+            >Por el otro, Adrian, que desea hacer justicia donde los Renegados
+            no pueden por sus propias reglas, y en el camino intenta descubrir
+            quién asesinó a su madre, una de las Renegadas originales del
+            Consejo. Entre la justicia que Adrian persigue y la venganza que
+            busca Nova, se va revelando el mundo interior de estos seres que,
+            aun con sus habilidades extraordinarias, no dejan de ser humanos:
+            sienten prejuicios, atracción, celos, alegría, dolor. Los dos
+            jóvenes se conocen. Sus almas casi se rozan, sus convicciones
+            tambalean. En un mundo gótico y siniestro, se revela una historia
+            atrapante y vertiginosa donde la muerte aparece con crudeza, pero
+            también, la ternura, la emoción y el miedo.</span
+          >
+        </p>
+        <button class="ver-mas-5">Ver más</button>
+        <button class="ver-menos-5">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-5">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+
+      <!----- Sexto libro ------->
+
+      <div class="libro-card">
+        <div class="libro-titulo">
+          <h2>Los juegos del hambre</h2>
+          <button id="icono6" onclick="cambiarIcono('icono6')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/los-juegos-del-hambre.png"
+          alt="portada del libro juegos del hambre"
+        />
+        <p class="descripcion">
+          En una oscura versión del futuro próximo, doce chicos y doce chicas se
+          ven obligados a participar en un reality show llamado Los Juegos del
+          Hambre. Solo hay una regla: matar o morir. Cuando Katniss Everdeen,
+          una joven de dieciséis años se presenta voluntaria para ocupar el
+          lugar de su hermana en los juegos,
+          <span class="oculto-6"
+            >lo entiende como una condena a muerte. Sin embargo, Katniss ya ha
+            visto la muerte de cerca y la supervivencia forma parte de su
+            naturaleza.</span
+          >
+        </p>
+        <button class="ver-mas-6">Ver más</button>
+        <button class="ver-menos-6">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-6">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+
+      <!----- Septimo libro ----->
+      <div class="libro-card">
+        <div class="libro-titulo">
+          <h2>Escrito En El Agua</h2>
+          <button id="icono7" onclick="cambiarIcono('icono7')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/escrito-en-el-agua.png"
+          alt="portada del libro escrito en el agua"
+        />
+        <p class="descripcion">
+          Pocos días antes de morir, Nel Abbott estuvo llamando a su hermana,
+          pero Jules no cogió el teléfono, ignoró sus súplicas de ayuda. Ahora
+          Nel está muerta. Dicen que saltó al río. Y Jules se ve arrastrada al
+          pequeño pueblo de los veranos de su infancia, un lugar del que creía
+          haber escapado, para cuidar de la adolescente que
+          <span class="oculto-7"
+            >su hermana deja atrás. Pero Jules tiene miedo. Mucho miedo. Miedo
+            al agua, miedo de sus recuerdos enterrados largo tiempo atrás, y
+            miedo, sobre todo, de su certeza de que Nel nunca habría
+            saltado…</span
+          >
+        </p>
+        <button class="ver-mas-7">Ver más</button>
+        <button class="ver-menos-7">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-7">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+
+      <!----- Octavo libro ------>
+      <div class="libro-card">
+        <div class="libro-titulo">
+          <h2>Caraval</h2>
+          <button id="icono8" onclick="cambiarIcono('icono8')">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+        <img
+          class="libro-img"
+          src="assets/caraval.png"
+          alt="portada del libro caraval"
+        />
+        <p class="descripcion">
+          Recuerda, sólo es un juego... La historia sigue a Scarlett Dragna,
+          quien nunca ha dejado su isla y sueña con asistir a los juegos anuales
+          de Caraval, una celebración llena de magia y aventura en la que la
+          audiencia participa para ganar un gran premio. Justo antes de su boda,
+          Scarlett recibe invitaciones para asistir a Caraval, pero su hermana
+          Tella es secuestrada por Legend,
+          <span class="oculto-8"
+            >el Maestro del juego. Scarlett se ve obligada a entrar en el
+            peligroso juego de Caraval para salvar a su hermana, y debe
+            descifrar pistas en solo cinco noches para encontrarla antes de que
+            desaparezca para siempre. En el camino, Scarlett debe lidiar con el
+            amor, las medias verdades y la magia en un mundo en el que nada es
+            lo que parece.</span
+          >
+        </p>
+        <button class="ver-mas-8">Ver más</button>
+        <button class="ver-menos-8">Ver menos</button>
+        <a href="Pedidos.html" class="hacer-pedido-8">
+          <i class="fas fa-shopping-cart"></i> Hacer Pedido
+        </a>
+      </div>
+    </div>
+
+    <!--------------------- Footer --------------------->
+
+    <footer>
+      <section class="copyright">
+        <p>&copy; Todos los derechos reservados</p>
+        <p>Hecho por Tomás Eisenhach</p>
+      </section>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/main.js"></script>
+    <script src="js/listaDeseados.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/objects.js"></script>
+  </body>
+</html>
