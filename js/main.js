@@ -205,10 +205,6 @@ verMenosBtn8.addEventListener("click", () => {
 
 verMenosBtn8.style.display = "none";
 
-// datos.json
-fetch('datos.json')
-  .then(response => response.json())
-  .then(libros => {
-    // Aquí puedes utilizar la variable "libros" para modificar el DOM de tu página HTML
-  })
-  .catch(error => console.error('Error al cargar los datos: ' + error));
+
+
+
