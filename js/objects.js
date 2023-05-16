@@ -102,11 +102,11 @@ form.addEventListener("submit", (e) => {
   }
 });
 
+// Storage
+
 // Guardar el array libros en el localStorage
 localStorage.setItem("libros", JSON.stringify(libros));
 
 // Obtener los libros almacenados del localStorage
 const librosGuardados = JSON.parse(localStorage.getItem("libros"));
-
-// Mostrar los libros guardados en la consola
 console.log(librosGuardados);
