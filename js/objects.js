@@ -110,3 +110,9 @@ localStorage.setItem("libros", JSON.stringify(libros));
 // Obtener los libros almacenados del localStorage
 const librosGuardados = JSON.parse(localStorage.getItem("libros"));
 console.log(librosGuardados);
+
+
+//Implementacion de JSON
+const librosJSON = JSON.stringify(libros);
+console.log(librosJSON);
+
