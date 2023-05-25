@@ -207,4 +207,41 @@ verMenosBtn8.style.display = "none";
 
 
 
+// Sweet alert ()
+  const btn1 = document.getElementById('btnbuy');
+  const btn2 = document.getElementById('btnbuy2');
+  const btn3 = document.getElementById('btnbuy3');
+  const btn4 = document.getElementById('btnbuy4');
+  const btn5 = document.getElementById('btnbuy5');
+  const btn6 = document.getElementById('btnbuy6');
+  const btn7 = document.getElementById('btnbuy7');
+  const btn8 = document.getElementById('btnbuy8');
 
+  btn1.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+
+  btn2.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+  btn3.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+
+  btn4.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+  btn5.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+
+  btn6.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+  btn7.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
+
+  btn8.addEventListener('click', () => {
+    swal("¡Buen trabajo!", "¡Te mandaremos un mail para que sigas los pasos!", "success");
+  });
