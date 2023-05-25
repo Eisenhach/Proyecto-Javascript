@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "titulo": "Caraval",
+      "autor": "Stephanie Garber",
+      "precio": "USD 25",
+      "paginas": 432,
+      "genero": "Fantasía"
+    },
+    {
+      "id": 2,
+      "titulo": "Asylum",
+      "autor": "Madeleine Roux",
+      "precio": "USD 22",
+      "paginas": 336,
+      "genero": "Terror"
+    },
+    {
+      "id": 3,
+      "titulo": "Anna And The French Kiss",
+      "autor": "Stephanie Perkins",
+      "precio": "USD 13",
+      "paginas": 400,
+      "genero": "Romance"
+    },
+    {
+      "id": 4,
+      "titulo": "The Paris Apartment",
+      "autor": "Lucy Foley",
+      "precio": "USD 55",
+      "paginas": 512,
+      "genero": "Misterio"
+    },
+    {
+      "id": 5,
+      "titulo": "Renegados",
+      "autor": "Marissa Meyer",
+      "precio": "USD 22",
+      "paginas": 584,
+      "genero": "Ciencia Ficción"
+    },
+    {
+      "id": 6,
+      "titulo": "Los Juegos Del Hambre",
+      "autor": "Suzanne Collins",
+      "precio": "USD 27",
+      "paginas": 374,
+      "genero": "Ciencia Ficción"
+    },
+    {
+      "id": 7,
+      "titulo": "Escrito en el agua",
+      "autor": "Paula Hawkins",
+      "precio": "USD 12",
+      "paginas": 560,
+      "genero": "Misterio"
+    },
+    {
+      "id": 8,
+      "titulo": "Confess",
+      "autor": "Colleen Hoover",
+      "precio": "USD 20",
+      "paginas": 320,
+      "genero": "Romance"
+    }
+  ]
+  
